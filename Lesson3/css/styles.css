@@ -1,0 +1,103 @@
+/* Bradley Trede CSS
+   Class CIT230
+   BYU Idaho */
+
+
+@import url("https://fonts.googleapis.com/css?family=Alfa+Slab+One|Bebas+Neue|Neuton|Playball&display=swap");
+
+/* Body properties */
+body {
+ 
+ max-width: 1000px;
+  margin:0 auto;
+}
+
+/* Nav Props for Navigation */
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li{
+  flex: 1 1 100%;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 1rem;
+}
+
+nav a:hover {
+  background-color: #b40b0b
+}
+
+
+/* Control the size of header */
+header { 
+ 
+  text-align: center;
+  background-color: #0bbcdb;
+  color: white;
+  font-size: 30px;
+  max-height: 150px;
+  max-width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+} 
+
+/* Grid control in the main class */
+main {
+  margin:0 auto;
+  font-size: 1.3em;
+  display: grid;
+  
+}
+/* Control the column width using the main section */
+main section {
+
+    background-color: rgb(221,247,110);
+    text-align:left;
+	border-radius:0px;
+  border: 1px solid grey;
+  
+}
+/* duplicated the head properties for the footer */
+footer { 
+  text-align: center;
+  background-color: #0bbcdb;
+  color: white;
+  font-size: 30px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  max-height: 150px;
+  max-width: 100%;
+  margin-top: -30px;
+
+}
+
+ /* Color for the date update in the footer. */
+thedate {
+  color:#000000;
+}
+
+/* fonts test */
+.typ1 {
+  font-family: 'Bebas Neue', cursive;
+}
+
+.typ2 {
+  font-family: 'Alfa Slab One', cursive;
+}
+
+.typ3 {
+  font-family: 'Neuton', serif;
+}
+
+.typ4 {
+  font-family: 'Playball', cursive;
+}
