@@ -1,0 +1,66 @@
+/* Bradley Trede CSS
+   Class CIT230
+   BYU Idaho */
+
+
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Amiri|Cairo|Fjalla+One|Lobster|Open+Sans|Shadows+Into+Light&display=swap");
+
+/* Body properties */
+body {
+ 
+ max-width: 1000px;
+  margin:0 auto;
+}
+
+/* Control the size of header */
+header { 
+ 
+  text-align: center;
+  background-color: #0bbcdb;
+  color: white;
+  font-size: 30px;
+  border-radius: 25px;
+  max-height: 150px;
+  max-width: 100%;
+} 
+
+/* Grid control in the main class */
+main {
+  margin:0 auto;
+  font-size: 1.3em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+/* Control the column width using the main section */
+main section {
+margin: 1px;
+	padding: 0 1px;
+    background-color: rgb(221,247,110);
+    text-align:center;
+	border-radius:10px;
+  border: 1px solid grey;
+  width: 287px;
+}
+/* duplicated the head properties for the footer */
+footer { 
+  text-align: center;
+  background-color: #0bbcdb;
+  color: white;
+  font-size: 30px;
+  border-radius: 25px;
+  max-height: 150px;
+  max-width: 100%;
+
+}
+/* Control the max width of the images */
+img {
+  max-width: 265px;
+  height: 571px;
+}
+ /* Color for the date update in the footer. */
+thedate {
+  color:#000000;
+}
+
+
+
