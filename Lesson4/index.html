@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Site</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link href="link" href="https://fonts.googleapis.com/css?family=Josefin+Sans|Noto+Serif|Roboto&display=swap" rel="stylesheet" rel="stylesheet">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    
+    
+</head>
+<body>
+    <header>
+        <picture>
+            <img src="images/weather-center-logo.png" alt="weather-center-logo">
+        </picture>
+      <section id="heading">
+            <h1>Serious Weather Site</h1>
+            <div class="motto">Are You Cirrus?</div>
+      </section>
+    </header>
+    <nav id="clearfix">        
+            <button onclick="toggleMenu();">&#9776;</button>
+            <ul id="navBar" class="hide">
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Preston, Idaho</h2>
+        <div class="pageContent">Weather Summary</div>
+        <div class="pageContent">5 Day Forecast</div>
+        <div class="pageContent">Article</div>
+        <div class="pageContent">Contact Information</div>
+
+    </main>
+    <footer>
+     
+    <p>2020    |    Bradley P Trede    |    Colorado    |    BYUI Online Learning</p>
+    Last Updated <span id="currentdate"></span>
+      
+     </footer>
+  
+     <script src="js/script.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+/* small CSS */
+/*
+
+
+    font-family: 'Josefin Sans', sans-serif;
+
+    font-family: 'Noto Serif', serif;
+
+    font-family: 'Roboto', sans-serif;
+
+*/
+
+header img {
+    width: 70px;
+    height: auto;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0 0 0;
+}
+
+.heading h1 {
+    font-size: 1.6rem;
+    margin: 0 0 0 17px;
+}
+/* Line Motto below site name */
+.motto {
+    text-align: center;
+    color: rgb(233, 202, 29);
+    margin-left: 20px;
+    font-size: .9rem;
+}
+
+header, footer, h1, h2, main, nav 
+{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border: 1px solid #bbb;
+    background-color: #2b4b84;
+    color: white;
+    padding: 15px 0;
+    display: flex;
+    
+    justify-content: center;
+}
+
+
+
+nav {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(250, 250, 246);
+  }
+
+nav ul {
+    list-style-type: none;
+
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #000;
+    border-top: 1px dashed rgba(0,0,0,0.3);
+}
+
+nav button {
+    margin: .2rem 2%;   
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #555;
+    }
+
+nav ul.hide {display: none;}
+
+nav ul li a:hover {
+    background-color:#ff6600;
+    color: #FFF;
+}
+
+nav ul li.active a {
+    background-color: #555;
+    color: #FFF;
+}
+
+clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+/* Future Content area design */
+.pageContent {
+    display: block;
+    margin: 10px auto;
+    border: 1px dashed black;
+    padding: 15px;
+    background-color: rgb(180, 180, 180);
+    color: grey;
+    max-width: 55rem;
+}
+
+
+/* Footer area */
+footer {
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin: 0 auto;
+    border: 1px solid #bbb;
+    color: white;
+    background-color: #2b4b84;
+    text-align: center;
+    font-size: 12px;
+    max-width: 57rem;
+    max-height: 125px;
+    text-align: center;
+}
+
+footer span {
+  
+        padding: 1px;
+        color: #ffffff;
+        text-align: left;
+        font-family: 'Open Sans', Helvetica, sans-serif;
+        font-size: 12px;
+        margin-left: 20px;
+        text-align: center;
+    }
+
+footer a {
+    color: #fff;
+
+}
+#currentdate {color:#fff;}
