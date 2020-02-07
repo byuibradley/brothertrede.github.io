@@ -35,8 +35,9 @@ document.getElementById("currentdate").textContent = fulldate;
 
 var Now = new Date();
 var CurrentDay = Now.getDay();
-if ((CurrentDay == 0 && Now.getHours()>12) || CurrentDay == 6 ) {
-$('#announcement').show();
-} 
-else $('#noAnnouncement').show();
+if (CurrentDay == 0 || CurrentDay == 1 || CurrentDay == 2 || CurrentDay == 3 || CurrentDay == 4 || CurrentDay == 6)
+
+$('#noAnnouncement').show();
+
+else $('#announcement').show();
 
