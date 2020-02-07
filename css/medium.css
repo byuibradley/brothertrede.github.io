@@ -1,0 +1,30 @@
+/* medium CSS */
+/* Bradley Trede */
+/* CIT230 - Web Development Front End */
+
+@media only screen and (min-width: 35rem) {
+
+    nav ul.hide { 
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav ul { 
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav ul {margin-left: 2%;}
+
+    nav button {display: none;}
+
+    nav ul li a {
+        border: none;
+        padding: .8rem 1rem;
+    }
+}
+#currentdate {color:#fff;}
