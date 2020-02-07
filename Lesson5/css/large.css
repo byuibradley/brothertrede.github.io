@@ -8,5 +8,13 @@
   nav ul li a {
       padding: .6rem 1rem;
   }
+
+  .contactMap {
+    max-width: 375px;
+    height: 100%;
+    display: block;
+}
+
+
 }
 #currentdate {color:#fff;}

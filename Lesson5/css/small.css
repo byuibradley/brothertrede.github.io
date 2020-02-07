@@ -299,6 +299,7 @@ table.contactTable {
 .contactMap {
     max-width: 375px;
     height: 100%;
+    display: none;
 }
 
 /* social media buttons */

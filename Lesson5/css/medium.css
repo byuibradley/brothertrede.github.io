@@ -55,6 +55,15 @@
         max-height: 130px;
         font-weight: bolder;
     }
+
+    .contactMap {
+        max-width: 375px;
+        height: 100%;
+        display: block;
+    }
+    
+
+
     }
     
 
