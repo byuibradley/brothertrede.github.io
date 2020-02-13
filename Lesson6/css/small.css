@@ -224,7 +224,6 @@ table.fiveDayForecast {
     background-color: #666666;
     color: #fff;
     max-width: 1000px;
-    max-height: auto;
     text-align: left;
     font-weight: bold;
 }
