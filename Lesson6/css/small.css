@@ -140,7 +140,7 @@ clearfix:after {
 
 .hero img {
     width:80%;
-    height: 10px auto;
+    height: auto;
 }
 
 .summary {
@@ -259,7 +259,6 @@ p .article {
     display: block;
     margin: 10px auto;
     border: 1px dashed black;
-    padding-top: -5px;
     background-color:#666666;
     color: ghostwhite;
     max-width: 1200px;
@@ -274,13 +273,12 @@ table.contactTable {
     max-width: 60%;
     text-align: left;
     border-collapse: collapse;
-    margin-top: -10px;
     margin:  auto;
 }
   
   table.contactTable td, table.contactTable th {
     border: none;
-    padding: 3px 2px;
+
 }
   table.contactTable tbody td {
     font-size: 13px;

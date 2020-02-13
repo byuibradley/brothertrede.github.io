@@ -8,6 +8,7 @@ const daynames = [
 	"Friday",
 	"Saturday"
 ];
+
 const months = [
 	"January",
 	"February",
@@ -23,10 +24,9 @@ const months = [
 	"December"
 ];
 
-
 const d = new Date();
-const dayName = d.getDay();
-const monthName = d.getMonth();
+const dayName = daynames[d.getDay()];
+const monthName = months[d.getMonth()];
 const year = d.getFullYear();
 const fulldate = dayName + ", " + monthName + " " + d.getDate() +", " + year;
 document.getElementById("currentdate").textContent = fulldate;
