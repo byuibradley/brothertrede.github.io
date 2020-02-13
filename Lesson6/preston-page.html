@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Site</title>
+    <link href="link" href="https://fonts.googleapis.com/css?family=Josefin+Sans|Noto+Serif|Roboto&display=swap" rel="stylesheet" rel="stylesheet">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="icon" type="image/ico" href="/images/weather-site-favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js" ></script>
+    
+    
+</head>
+<body>
+    <header>
+        <picture>
+            <img src="images/weather-center-logo.png" alt="weather-center-logo">
+        </picture>
+      <section id="heading">
+            <h1>Serious Weather Site</h1>
+            <div class="motto">Are You Cirrus?</div>
+      </section>
+    </header>
+    <div id="announcement" class="annoucement">
+        Saturday = Preston Pancakes in the Park! <br> 9:00 a.m. Saturday at the city park pavilion.
+        </div>
+        <div id="noAnnoucement"></div>
+    <nav id="clearfix">        
+            <button onclick="toggleMenu();">&#9776;</button>
+            <ul id="navBar" class="hide">
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            
+            
+        </section>
+        <h2>Preston, Idaho</h2>
+        <div class="hero">
+            <PICTURE>
+                <source media="(min-width: 1200px)" srcset="images/preston-hero1200.jpg">
+                <source media="(min-width: 800px)" srcset="images/preston-hero800.jpg">
+                <source media="(min-width: 400px)" srcset="images/preston-hero400.jpg">
+                <source media="(min-width: 200px)" srcset="images/preston-hero200.jpg">
+                    
+                    <img src="images/preston.jpg" alt="Preston">
+            </PICTURE>
+            
+            <section class="summary"> 
+                <h2>Weather Summary</h2>
+               
+             <p>Currently: Partly Cloudy</p>
+             <p>High: <span id="temp">54</span>&#176; F</p>
+             <p>Windchill: <span id="windChill"></span>&#176; F</p>
+             <p>humidity: <span id="humidity">95</span>%</p>
+             <p>Windspeed: <span id="windspeed">12</span> mph</p>
+                
+            
+            </section>
+            
+            <section id="section2">
+                <table class="fiveDayForecast">
+                    <thead>
+                        <tr>
+                            <th>Sunday</th>
+                            <th>Monday</th>
+                            <th>Tuesday</th>
+                            <th>Wednesday</th>
+                            <th>Thursday</th>
+                         </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="images/sun-5-day.png" alt="sunny-day"/></td>
+                            <td><img src="images/sun-5-day.png" alt="sunny-day"/></td>
+                            <td><img src="images/sun-5-day.png" alt="sunny-day"/></td>
+                            <td><img src="images/sun-5-day.png" alt="sunny-day"/></td>
+                            <td><img src="images/sun-5-day.png" alt="sunny-day"/></td>
+                        </tr>
+                        <tr>
+                            <td>52&#176; F</td>
+                            <td>57&#176; F</td>
+                            <td>62&#176; F</td>
+                            <td>62&#176; F</td>
+                            <td>59&#176; F</td>
+                        </tr>
+                    </tbody>
+                </table>
+             </section>
+             <section class="pageContent">
+                
+                <div class="article">
+                    <p>
+                    <h1>Founders Celebration</h1>
+                    <PICTURE class="imgArticle" id="clearfix">
+                        <source media="(min-width: 1200px)" srcset="images/picnic1200.jpg">
+                        <source media="(min-width: 800px)" srcset="images/picnic800.jpg">
+                        <source media="(min-width: 400px)" srcset="images/picnic400.jpg">
+                        <source media="(min-width: 200px)" srcset="images/picnic200.jpg">
+                            
+                            <img src="images/picnic.jpg.jpg" alt="Preston">
+                    </PICTURE>
+                    As we reflect every summer about the fine Founders Celebration at Foundation Park, the weather always seems
+                    to play into our festivities.  Luckily, for the 2019 celebration, we were able to enjoy the plethors of
+                    sunshine, modest temperatures, and the enjoyments of everyone from old to young.  Who knows what 2020 will 
+                    hold true...
+                        <br><br>
+                    As we reflect every summer about the fine Founders Celebration at Foundation Park, the weather always seems
+                    to play into our festivities.  Luckily, for the 2019 celebration, we were able to enjoy the plethors of
+                    sunshine, modest temperatures, and the enjoyments of everyone from old to young.  Who knows what 2020 will 
+                    hold true...
+                        <br><br>
+                    As we reflect every summer about the fine Founders Celebration at Foundation Park, the weather always seems
+                    to play into our festivities.  Luckily, for the 2019 celebration, we were able to enjoy the plethors of
+                    sunshine, modest temperatures, and the enjoyments of everyone from old to young.  Who knows what 2020 will 
+                    hold true...
+                    </p>
+                </div>
+            </section>
+           <section class="contact">
+            <table class="contactTable">
+                <tbody>
+                <tr>
+                <td>
+                    <PICTURE class="imgArticle" class="contactMap" id="clearfix">
+                        <source media="(min-width: 400px)" srcset="images/map-preston400.jpg">
+                        <source media="(min-width: 200px)" srcset="images/map-preston200.jpg">
+                            <img src="images/map-preston.JPG" alt="map-of-Preston-ID">
+                    </PICTURE>
+                    
+                <td>Serious Weather Site<br>
+                    1 North 1st St<br>
+                    Preston, ID 83263<br>
+
+                    &#9742; (208) 555-1212<br>
+                    &#9993; info@cirrusweathersite.com<br>
+                    <div class="row">
+                        <div class="column"><A href="https://www.facebook.com">
+                          <img src="/Lesson5/images/fb.png" alt="Facebook-Logo"></A>
+                        </div>
+                        <div class="column"><a href="https://www.instagram.com">
+                          <img src="/Lesson5/images/instagram.png" alt="Instagram-Logo"></a>
+                        </div>
+                        <div class="column"><a href="https://www.twitter.com">
+                          <img src="/Lesson5/images/twitter.png" alt="Twitter-Logo"></a>
+                        </div>
+                      </div>
+                </td>
+                </tr>
+                </tbody>
+                </table>
+               
+
+
+
+             </section>
+        </div>
+
+
+
+
+    </main>
+    <footer>
+     
+    <p>2020    |    Bradley P Trede    |    Colorado    |    BYUI Online Learning</p>
+    Last Updated <span id="currentdate"></span>
+      
+     </footer>
+     <script src="js/date_scripts.js" ></script>
+     <script src="js/windchill.js" ></script>
+     <script src="js/script.js" ></script>
+</body>
+</html>
