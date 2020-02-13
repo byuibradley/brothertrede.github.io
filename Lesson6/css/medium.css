@@ -41,27 +41,29 @@
         text-align: left;
         border-collapse: collapse;
         height:190px;
-        width: 250px;
+        width: 265px;
       }
 
       .summary {
         position: absolute;
-        top: 4%;
-        left: 12%;
+        top: 38%;
+        left: 17%;
         background: #4567aa;
         border: 1px solid #000;
         box-shadow: 0 0 10px #111;
         opacity: .8;
-        max-height: 250px;
+        max-height: 290px;
         font-weight: bolder;
         color:#fff;
     }
 
-   
-    
-
-
+    .contactMap {
+        max-width: 375px;
+        height: auto;
+        display: block;
+        padding: 27px;
     }
     
-
+    
 #currentdate {color:#fff;}
+}
