@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Progressive Image Loading</title>
+    <link href="link" href="https://fonts.googleapis.com/css?family=Josefin+Sans|Noto+Serif|Roboto&display=swap" rel="stylesheet" rel="stylesheet">
+    <link rel="stylesheet" href="css/lazyload.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+<body>
+    <div id = "content">
+        <main>
+           
+            <h1>Progressive Image Loading</h1>
+            <picture>
+                <img src = "https://via.placeholder.com/200x300.jpg" data-src = "images/lazy/jesus1.jpg" alt = "Jesus 1">
+            </picture>
+            <picture>
+                <img src = "https://via.placeholder.com/200x300.jpg" data-src = "images/lazy/jesus2.jpg" alt = "Jesus 2">
+            </picture>
+            <picture>
+                <img src = "https://via.placeholder.com/200x300.jpg" data-src = "images/lazy/jesus3.jpg" alt = "Jesus 3">
+            </picture>
+            <picture>
+                <img src = "https://via.placeholder.com/200x300.jpg" data-src = "images/lazy/jesus4.png" alt = "Jesus 4">
+            </picture>
+         
+        </main>
+        <footer>
+     
+            2020    |    Bradley P Trede    |    Colorado    |    BYUI Online Learning | Last Updated<br>
+                 <span id="currentdate"></span>
+                 
+          
+              </footer>
+              <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js" ></script>
+              <script src="js/date_scripts.js" ></script>
+            
+              <script src="js/lazyload.js" ></script>
+         </body>
+         </html>
