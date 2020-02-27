@@ -1,0 +1,77 @@
+main {
+    margin:auto 0;
+}
+
+table.ACME_wildwest {
+    font-family: Ubuntu, sans-serif;
+    font-weight: bolder;
+    font-size: 3.5em;
+    border: 1px solid #FFFFFF;
+    background-color: #E7F0ED;
+    width: 330px;
+    height: 334px;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 200ms ease-out;
+}
+
+
+table.ACME_wildwest:hover {
+        box-shadow: 0 0 6px rgba(35, 173, 278, 1);
+  
+  }
+  table.ACME_wildwest td, table.ACME_wildwest th {
+    border: 1px solid #FFFFFF;
+    padding: 3px 2px;
+  }
+  
+  table.ACME_wildwest tbody td {
+    font-size: 18px;
+    font-weight: bold;
+   
+  }
+  table.ACME_wildwest tr:nth-child(even) {
+    background: #E7FFED;
+  }
+  table.ACME_wildwest thead {
+    background: #7FB9C2;
+    border-bottom: 0px solid #E7F0ED;
+  }
+  table.ACME_wildwest thead th {
+    font-family: Ubuntu, sans-serif;
+    font-weight: bolder;
+    font-size: .5em;
+    background: #7fb9c2;
+    text-align: center;
+    border-left: 1px solid #E7F0ED;
+  }
+ 
+  
+  table.ACME_wildwest tfoot {
+    font-size: 14px;
+    font-weight: normal;
+    color: #000000;
+    background: #7fb9c2;
+    border-top: 3px solid #E7F0ED;
+  }
+  table.ACME_wildwest tfoot td {
+    font-size: 14px;
+    background: #7fb9c2;
+  }
+ 
+  table.ACME_wildwest tr:nth-child(1) 
+  { 
+      background: #628ca6; 
+      color: #FFFFFF;  
+    }
+    table.ACME_wildwest tr:nth-child(2) 
+    { 
+        font-size: .45em;
+    }
+  table.ACME_wildwest tr:nth-child(6) td:nth-child(2) 
+  { 
+      background: #628ca6; 
+      color:#ffffff;
+  }
