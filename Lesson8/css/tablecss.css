@@ -26,7 +26,7 @@ table.ACME_wildwest:hover {
     border: 1px solid #FFFFFF;
     padding: 3px 2px;
   }
-  
+
   table.ACME_wildwest tbody td {
     font-size: 18px;
     font-weight: bold;
@@ -64,7 +64,7 @@ table.ACME_wildwest:hover {
   table.ACME_wildwest tr:nth-child(1) 
   { 
       background: #628ca6; 
-      color: #FFFFFF;  
+      color: #000000;  
     }
     table.ACME_wildwest tr:nth-child(2) 
     { 
