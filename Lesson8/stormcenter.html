@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Serious Weather Site - Storm Center</title>
+    <link href="link" href="https://fonts.googleapis.com/css?family=Josefin+Sans|Noto+Serif|Roboto&display=swap"
+        rel="stylesheet" rel="stylesheet">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="icon" type="image/ico" href="/images/weather-site-favicon.ico">
+</head>
+
+<body>
+    <header>
+        <picture>
+            <img src="images/weather-center-logo.png" alt="weather-center-logo">
+        </picture>
+        <section id="heading">
+            <h1>Serious Weather Site</h1>
+            <div class="motto">Are You Cirrus?</div>
+        </section>
+    </header>
+    <div id="announcement" class="annoucement">
+        Saturday = Preston Pancakes in the Park! <br> 9:00 a.m. Saturday at the city park pavilion.
+    </div>
+    <div id="noAnnoucement"></div>
+    <nav id="clearfix">
+        <button onclick="toggleMenu();">&#9776;</button>
+        <ul id="navBar" class="hide">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li class="active"><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form>
+            <div class="row">
+                <div class="col">
+                    <label for="fullName">Full Name
+                </div>
+                <div class="col">
+                    <input type="text" id="fullName" name="fullName" placeholder="First Last" pattern="[A-Za-z]"
+                        minlength="6"></label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="email">Email Address:
+                </div>
+                <div class="col">
+                    <input type="email" id="email" name="email" placeholder="name@email.com"></label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="confirmemail">Confirm Email:
+                </div>
+                <div class="col">
+                    <input type="confirmemail" id="confirmemail" name="confirmemail"
+                        placeholder="name@email.com"></label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="phoneNumber">Phone Number:
+                </div>
+                <div class="col">
+                    <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="###-###-####" required></label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="zipCode">Zip Code</div>
+                <div class="col">
+                    <input id="zipCode" name="zipCode" type="number" pattern="[0-9]*"></label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="stormDate">Storm Date</div>
+                <div class="col">
+                    <input type="date" id="stormDate" name="stormDate"></label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="stormTypes">Storm type</div>
+                <div class="col">
+                    <input list="stormTypes" id="stormTypes" name="stormTypes" />
+                    <datalist id="stormTypes">
+                        <option value="Flash Flood"></option>
+                        <option value="Hail"></option>
+                        <option value="Hurricane"></option>
+                        <option value="Thunderstorm"></option>
+                        <option value="Tornado"></option>
+                    </datalist></label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="stormSeverity">Storm Severity</div>
+                <div class="col">
+                    <input type="range" id="stormSeverity" name="stormSeverity" value="5" min="1" max="10" step="1"
+                        list="severity" oninput="StormSeverity(this.value)" onchange="StormSeverity(this.value)">
+                    <span id="getSeverity">5</span>
+                    <datalist id="severity">
+                        <option value="1"></option>
+                        <option value="2"></option>
+                        <option value="3"></option>
+                        <option value="4"></option>
+                        <option value="5"></option>
+                        <option value="6"></option>
+                        <option value="7"></option>
+                        <option value="8"></option>
+                        <option value="9"></option>
+                        <option value="10"></option>
+                    </datalist></label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="stormRegion">Storm Region</div>
+                <div class="col">
+                    <select id="stormRegion">
+                        <option>Select Region...</option>
+                        <option value="Preston">Preston</option>
+                        <option value="SodaSprings">Soda Springs</option>
+                        <option value="FishHaven">Fish Haven</option>
+                    </select></label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="userInDangerLevel">User In Danger Level</div>
+                <div class="col">
+                    <input type="radio" id="userInDangerLevel" value="yes">Yes
+                    <input type="radio" id="userInDangerLevel" value="maybe">Maybe
+                    <input type="radio" id="userInDangerLevel" value="no">No</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="comments">Additional information</div>
+                <div class="col">
+                    <textarea id="comments" rows="10" cols="50"
+                        placeholder="Type any additional information here..."></textarea></label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <input type="submit" value="Submit">
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer>
+
+        2020 | Bradley P Trede | Colorado | BYUI Online Learning | Last Updated<br>
+        <span id="currentdate"></span>
+
+
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    <script src="js/date_scripts.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,211 @@
+/* small CSS */
+/*
+
+
+    font-family: 'Josefin Sans', sans-serif;
+
+    font-family: 'Noto Serif', serif;
+
+    font-family: 'Roboto', sans-serif;
+
+*/
+
+
+
+@media (max-width: 300px) {                  
+   .section2 {
+      display: none !important;
+   }
+   .contactMap {
+     display: none !important;
+   }
+}
+
+
+
+header img {
+    width: 70px;
+    height: auto;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.heading h1 {
+    font-size: 1.6rem;
+    margin: 0 0 0 17px;
+}
+/* Line Motto below site name */
+.motto {
+    text-align: center;
+    color: rgb(233, 202, 29);
+    margin-left: 20px;
+    font-size: .9rem;
+}
+
+header, footer, h1, h2, h3, h4, main, nav 
+{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+body {
+    
+  
+    margin: 0;
+}
+
+
+header {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border: 1px solid #bbb;
+    background-color: #2b4b84;
+    color: white;
+   
+    display: flex;
+    max-width: 750px;
+    margin: auto;
+    
+    justify-content: center;
+}
+
+
+
+nav {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(250, 250, 246);
+    margin: auto;
+    max-width: 750px;
+  }
+
+nav ul {
+    list-style-type: none;
+
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #000;
+    border-top: 1px dashed rgba(0,0,0,0.3);
+}
+
+nav button {
+    margin: .2rem 2%;   
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #555;
+    }
+
+nav ul.hide {display: none;}
+
+nav ul li a:hover {
+    background-color:#ff6600;
+    color: #FFF;
+}
+
+nav ul li.active a {
+    background-color: #555;
+    color: #FFF;
+}
+
+  .annoucement {
+    max-width: 1000px;
+    height: 46px;
+    display:block;
+    margin-top: -20px;
+    background-color: rgb(233, 202, 29);
+    color: #000;
+    margin: auto;
+    font-weight: bolder;
+    display: none;
+    text-align: center;
+  }
+
+#announcement, #noAnnoucement {
+  display: none;
+
+}
+
+
+
+/* Page Content Formatting CSS */
+.pageContent {
+    display: block;
+    margin: 10px auto;
+    border: 1px dashed black;
+ 
+    background-color: #666666;
+    color: #fff;
+    max-width: 1000px;
+    text-align: left;
+    font-weight: bold;
+}
+
+
+
+
+/* Footer area */
+footer {
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin: 0 auto;
+    border: 1px solid #bbb;
+    color: white;
+    background-color: #2b4b84;
+    text-align: center;
+    font-size: 12px;
+    max-width: 750px;
+    max-height: 125px;
+    text-align: center;
+
+}
+
+footer span {
+  
+        padding: 1px;
+        color: #ffffff;
+        text-align: left;
+        font-family: 'Open Sans', Helvetica, sans-serif;
+        font-size: 12px;
+        margin-left: 20px;
+        text-align: center;
+    }
+
+footer a {
+    color: #fff;
+
+}
+#currentdate {color:#fff;}
+
+.contactMap {
+  max-width: 400px;
+  height: 100%;
+  display: none;
+}
+
+form {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+
+
+.row {
+  background: #f6f6f6;
+ 
+  overflow: hidden;
+  padding: 10px;
+}
+.col {
+  float: left;
+  width: 25%;
+  text-align: left;
+}
+
