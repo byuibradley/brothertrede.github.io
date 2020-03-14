@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Serious Weather Site - Storm Center</title>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Noto+Serif|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="icon" type="image/ico" href="/images/weather-site-favicon.ico">
+</head>
+
+<body>
+    <header>
+        <picture>
+            <img src="images/weather-center-logo.png" alt="weather-center-logo">
+        </picture>
+        <section id="heading">
+            <h1>Serious Weather Site</h1>
+            <div class="motto">Are You Cirrus?</div>
+        </section>
+    </header>
+    <div id="announcement" class="annoucement">
+        This Saturday = Preston Pancakes is in the Park! <br> 9:00 a.m. Saturday at the city park pavilion.
+    </div>
+    <div id="noAnnoucement"></div>
+    <nav id="clearfix">
+        <button onclick="toggleMenu();">&#9776;</button>
+        <ul id="navBar" class="hide">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav> 
+    <main>
+        <div class="towns"></div>
+    </main>
+    <footer>
+
+        2020 | Bradley P Trede | Colorado | BYUI Online Learning | Last Updated<br>
+        <span id="currentdate"></span>
+
+
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
