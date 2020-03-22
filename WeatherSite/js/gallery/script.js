@@ -18,8 +18,6 @@ fetch(requestURL)
         return response.json();
     })
     .then(function(jsonObject) {
-      
-        var b = string.concat(a, '\', town.name);
         const towns = jsonObject['towns'];
         towns.forEach(town => {
             if (town.name == "Preston" || town.name == "Soda Springs" || town.name == "Fish Haven") {
@@ -31,8 +29,6 @@ fetch(requestURL)
                 let year = document.createElement('p');
                 let rainfall = document.createElement('p');
                 let image =document.createElement('img');
-                
-                
                 // Set attributes
                 data.setAttribute('class', 'data');
                 card.setAttribute('class', 'town')
@@ -53,7 +49,6 @@ fetch(requestURL)
                 card.appendChild(data);
                 card.appendChild(image);
                 document.querySelector('.towns').appendChild(card);
-                a.appendChild(link); 
             }
         });
     });

@@ -1,0 +1,74 @@
+/* medium CSS */
+/* Bradley Trede */
+/* CIT230 - Web Development Front End */
+
+@media only screen and (min-width: 35rem) {
+
+    nav ul.hide { 
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav ul { 
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav ul {margin-left: 2%;}
+
+    nav button {display: none;}
+
+    nav ul li a {
+        border: none;
+        padding: .8rem 1rem;
+    }
+    .section2 {
+        max-width: 1000px;
+        margin:10px auto;
+    }
+    table.fiveDayForecast  {
+        display: block;
+        max-width: 1000px;
+        max-height: auto;
+        margin: auto;
+        text-align: center;
+    
+    }
+    table.summaryTable {
+        border: 1px solid #1C6EA4;
+        background-color: #FFFFFF;
+        width: 100%;
+        text-align: left;
+        border-collapse: collapse;
+        height:250px;
+        width: 250px;
+      }
+
+      .summary {
+        position: absolute;
+        top: 4%;
+        left: 12%;
+        background: radial-gradient(#eee, #4567aa);
+        border: 1px solid #000;
+        box-shadow: 0 0 10px #111;
+        opacity: .8;
+        max-height: 300px;
+        font-weight: bolder;
+    }
+
+    .contactMap {
+        max-width: 375px;
+        height: auto;
+        display: block;
+    }
+    
+
+
+    }
+    
+
+#currentdate {color:#fff;}

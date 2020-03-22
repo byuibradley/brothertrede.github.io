@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather Site</title>
+    <link href="link" href="https://fonts.googleapis.com/css?family=Josefin+Sans|Noto+Serif|Roboto&display=swap" rel="stylesheet" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/gallery/small.css">
+    <link rel="stylesheet" href="CSS/gallery/medium.css">
+    <link rel="stylesheet" href="CSS/gallery/large.css">
+    <link rel="stylesheet" href="CSS/gallery/normalize.css">
+    <link rel="icon" type="image/ico" href="/images/weather-site-favicon.ico">
+    
+    
+    
+</head>
+<body>
+    <header>
+        <picture>
+            <img src="images/weather-center-logo.png" alt="weather-center-logo">
+        </picture>
+      <section id="heading">
+            <h1>Serious Weather Site</h1>
+            <div class="motto">Are You Cirrus?</div>
+      </section>
+    </header>
+    <div id="announcement" class="annoucement">
+        Saturday = Preston Pancakes in the Park! <br> 9:00 a.m. Saturday at the city park pavilion.
+        </div>
+        <div id="noAnnoucement"></div>
+    <nav id="clearfix">        
+            <button onclick="toggleMenu();">&#9776;</button>
+            <ul id="navBar" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="soda-springs.html">Soda Springs</a></li>
+            <li><a href="fish-haven.html">Fish Haven</a></li>
+            <li><a href="storm-center.html">Storm Center</a></li>
+            <li class="active"><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section>
+            <h1>Gallery</h1>
+            <div id='gallery'>
+                <div class='gallery-item'>
+                    <img src="https://via.placeholder.com/240x240" data-src="images/gallery/gal1.jpg" alt='1'>
+                    <div class='caption'>
+                        <p>Partly cloudy skies give way to a sunny day in Preston.</p>
+                    </div>
+                </div>
+                <div class='gallery-item'>
+                    <img src="https://via.placeholder.com/240x240" data-src="images/gallery/gal2.jpg" alt='2'>
+                    <div class='caption'>
+                        <p>Bright morning for Preston farmland.</p>
+                    </div>  
+                </div>
+                <div class='gallery-item'>
+                    <img src="https://via.placeholder.com/240x240" data-src="images/gallery/gal3.jpg" alt='3'>
+                    <div class='caption'>
+                        <p>Mostly sunny day starts Spring off right in Preston.</p>
+                    </div>
+                </div>
+                <div class='gallery-item'>
+                    <img src="https://via.placeholder.com/240x240" data-src="images/gallery/gal4.jpg" alt='4'>
+                    <div class='caption'>
+                        <p>A few clouds will make the perfect sunset mountainside.</p>
+                    </div>
+                </div>
+                <div class='gallery-item'>
+                    <img src="https://via.placeholder.com/240x240" data-src="images/gallery/gal5.jpg" alt='5'>
+                    <div class='caption'>
+                        <p>Moderate Rainfall will bring good health watering to to countryside. </p>
+                    </div>
+                </div>
+                <div class='gallery-item'>
+                    <img src="https://via.placeholder.com/240x240" data-src="images/gallery/gal6.jpg" alt='6'>
+                    <div class='caption'>
+                        <p>Mostly cloudy skies will limit our sunset this evening.</p>
+                    </div>
+                </div>
+                <div class='gallery-item'>
+                    <img src="https://via.placeholder.com/240x240" data-src="images/gallery/gal7.jpg" alt='7'>
+                    <div class='caption'>
+                        <p>Snow has made the mountains beautiful.</p>
+                    </div>
+                </div>
+                <div class='gallery-item'>
+                    <img src="https://via.placeholder.com/240x240" data-src="images/gallery/gal8.png" alt='8'>
+                    <div class='caption'>
+                        <p>Showers and Thunderstorms are expected throughout the night.</p> 
+                    </div>
+                </div>
+                <div class='gallery-item'>
+                    <img src="https://via.placeholder.com/240x240" data-src="images/gallery/gal9.jpg" alt='9'>
+                    <div class='caption'>
+                        <p>Cool temps and mostly clear for the perfect bike ride.</p>
+                    </div>
+                </div>    
+            </div>
+        </section>
+    </main>
+
+    <footer>
+     
+   2020    |    Bradley P Trede    |    Colorado    |    BYUI Online Learning | Last Updated<br>
+        <span id="currentdate"></span>
+        
+ 
+     </footer>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js" ></script>
+     <script src="js/date_scripts.js" ></script>
+
+     <script src="js/gallery/lazyload.js" ></script>
+</body>
+</html>
