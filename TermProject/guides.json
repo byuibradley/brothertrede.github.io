@@ -1,0 +1,37 @@
+{
+    "guides": [
+      {
+        "name": "Donnie",
+        "photo": "media/donnie.jpg",
+        "nickname": "Diamond Donnie",
+        "yearsExperience": 10,
+        "hometown": "Casper, WY",
+        "favoriteRiver": "Rogue River",
+        "bio": [
+          "Former Marine training instructor who is passionate about people correctly rafting.  I might look small, but I am full of passion and you will be a true champion if you select me as your guide."
+        ]
+      },
+      {
+        "name": "Leonard",
+        "photo": "media/leonard.jpg",
+        "nickname": "Skinnered.",
+        "yearsExperience": 25,
+        "hometown": "Salt Lake City, UT",
+        "favoriteRiver": "Salmon River",
+        "bio": [
+          "Sorry, not named after the band.  Skinnered because I used to be a skate boarder and I have a ton of skinned legs to the point that now I have permanent scars on both legs. Now I raft!"
+        ]
+      },
+      {
+        "name": "Molly",
+        "photo": "media/molly.jpg",
+        "nickname": "Molly Mormon",
+        "yearsExperience": 17,
+        "hometown": "Rexburg",
+        "favoriteRiver": "Salmon River",
+        "bio": [
+          "They don't call me Molly Mormon for no reason.  It is rafting and church and that is how simply I keep my life. With me, you will know Heavenly Father will protect us from the mean rapids."
+        ]
+      }
+    ]
+}

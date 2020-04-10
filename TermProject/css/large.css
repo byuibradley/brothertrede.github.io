@@ -1,0 +1,32 @@
+@media only screen and (min-width: 70rem) {
+
+    nav ul li a {
+        padding: .6rem 1rem;
+    }
+  
+    #gallery {
+      gap: 3.5%;
+      margin-bottom: 100px;
+      padding-left: 100px;
+      padding-right: 100px;
+  }
+  
+  .gallery-item:hover {
+      box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.5), 0 14px 35px 0 rgba(0, 0, 0, 0.49); 
+  }
+  
+  }
+  #currentdate {color:#fff;}
+
+  .absolute {
+      visibility: visible;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: #fdd;
+    border-color: #900;
+    opacity: 0.7;
+    z-index: 100;
+    top: 5%;
+    left: 5%;
+    }

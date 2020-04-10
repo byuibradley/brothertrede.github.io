@@ -1,0 +1,90 @@
+/* medium CSS */
+/* Bradley Trede */
+/* CIT230 - Web Development Front End */
+
+@media only screen and (min-width: 35rem) {
+
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 95% !important;
+      }
+
+    nav ul.hide { 
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav ul { 
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav ul {margin-left: 2%;}
+
+    nav button {display: none;}
+
+    nav ul li a {
+        border: none;
+        padding: .8rem 1rem;
+    }
+    .section2 {
+        max-width: 650px;
+        margin:10px auto;
+    }
+    table.fiveDayForecast  {
+        display: block;
+    
+    }
+    table.summaryTable {
+        border: 1px solid #1C6EA4;
+        background-color: #FFFFFF;
+        width: 100%;
+        text-align: left;
+        border-collapse: collapse;
+        height:190px;
+        width: 265px;
+      }
+
+      .summary {
+        position: absolute;
+        top: 38%;
+        left: 17%;
+        background: #4567aa;
+        border: 1px solid #000;
+        box-shadow: 0 0 10px #111;
+        opacity: .8;
+        max-height: 290px;
+        font-weight: bolder;
+        color:#fff;
+    }
+
+    .contactMap {
+        max-width: 375px;
+        height: auto;
+        display: block;
+        padding: 27px;
+    }
+    
+    
+#currentdate {color:#fff;}
+}
+
+.absolute {
+    visibility: visible;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: #fdd;
+    border-color: #900;
+    opacity: 0.7;
+    z-index: 100;
+    top: 5%;
+    left: 5%;
+    }

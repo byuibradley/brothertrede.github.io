@@ -1,0 +1,191 @@
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Salmon River Adventures</title>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Noto+Serif|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="icon" type="image/ico" href="media/salmon-rivers-favicon.ico">
+</head>
+<div class="weather">
+        <h3>Current Weather in Riggins, ID</h3><br>
+        <h4>Currently: <span id="currently"></span><br>
+            Current Temp: <span id="temp"></span> °F</span><br>
+            Winds: <span id="wind"></span> mph</span><br>
+            </h4>
+</div>
+<body>
+    <header>
+        <nav id="page-nav">
+            <img src="media/salmon-river-logo.png" alt="logo" />
+            <label for="hamburger">&#9776;</label>
+            <input type="checkbox" id="hamburger" />
+            <ul>
+
+                <li><a href="index.html">Home</a></li>
+                <li><a href="adventures.html">Adventures</a></li>
+                <li><a href="guides.html">Tour Guides</a></li>
+                <li class="active"><a href="#">Reservations</a></li>
+                <li><a href="contact-us.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+<br><br>
+
+<table class="resTable">
+    <tr>
+        <td class="reservationLeft">
+
+<form class="form-horizontal">
+    <fieldset>
+    
+    <!-- Form Name -->
+    <legend><H1>Reservations</H1></legend>
+    
+    <!-- Text input-->
+    <div >
+      <label for="firstName">First Name</label>  
+
+      <input id="firstName" name="firstName" type="text" placeholder="" class="form-control input-md" required="">
+        
+
+    </div>
+    
+    <!-- Text input-->
+    <div >
+      <label for="LastName">Last Name</label>  
+  
+      <input id="LastName" name="LastName" type="text" placeholder="" class="form-control input-md">
+        
+   
+    </div>
+    
+    <!-- Text input-->
+    <div >
+      <label for="email">Email Address</label>  
+ 
+      <input id="email" name="email" type="text" placeholder="" class="form-control input-md" required="">
+        
+
+    </div>
+    
+    <!-- Text input-->
+    <div >
+      <label for="phone">Phone Number</label>  
+
+      <input id="phone" name="phone" type="text" placeholder="" class="form-control input-md" required="">
+        
+
+    </div>
+    
+    <!-- Select Basic -->
+    <div >
+      <label for="selectGuide">Select Guide</label>
+
+        <select id="selectGuide" name="selectGuide" class="form-control">
+          <option value="1">Donnie</option>
+          <option value="2">Leonard</option>
+          <option value="">Molly</option>
+        </select>
+
+    </div>
+    
+    <!-- Select Basic -->
+    <div >
+      <label for="selectPackage">Select Package</label>
+  
+        <select id="selectPackage" name="selectPackage" class="form-control">
+          <option value="1">The Rookie</option>
+          <option value="2">The Pro</option>
+          <option value="">The Veteran</option>
+        </select>
+
+    </div>
+    
+    <!-- Button -->
+    <div >
+      <label for="submitbutton"><A href="#">Click here for Terms and Conditions</A><br></label>
+      
+        <button id="submitbutton" name="submitbutton" class="btn btn-primary">Submit </button>
+ 
+    </div>
+    
+    </fieldset>
+    </form>
+
+    </td>
+    <td class="reservationRight">
+        <form class="form-horizontal">
+        <fieldset>
+        <legend><H1>Pricing Options</H1></legend>
+        <div class="rescolumns">
+            <ul class="price">
+              <li class="header">The Rookie</li>
+              <li class="grey">$199</li>
+              <li>4-hour</li>
+              <li>2 hours Training</li>
+              <li>Equipment</li>
+              <li>Guide</li>
+              <li>2 mile walk back</li>
+            </ul>
+          </div>
+          
+          <div class="rescolumns">
+            <ul class="price">
+              <li class="header" style="background-color:#4CAF50">The Pro</li>
+              <li class="grey">$299</li>
+              <li>4-hour</li>
+              <li>1 hour training</li>
+              <li>Equipment</li>
+              <li>Guide</li>
+              <li>Return Transportation</li>
+            </ul>
+          </div>
+          
+          <div class="rescolumns">
+            <ul class="price">
+              <li class="header">Premium</li>
+              <li class="grey">$429</li>
+              <li>8-Hour Trip</li>
+              <li>Expert Level Guide</li>
+              <li>Lunch provided</li>
+              <li>Equipment</li>
+              <li>Multiple River Options</li>
+            </ul>
+          </div>
+          <br>
+            <h1>When you book a package with us, 50% of the total will be held.<br>
+            7-day Cancellation or lose your deposit.</h1><br>
+        </form>
+    </td>
+    </tr>
+</table>
+</main>
+<br>
+<footer>
+    <hr>
+    <span class="footer-social" ><img src="media/twitter.png" alt="Twitter-Logo"><img src="media/youtube.png" alt="YouTube-Logo"><img
+            src="media/facebook.png" alt="Facebook-Logo"></span>
+    <p class="footer-right">
+        Salmon River Adventures &copy;2020</p>
+    </span>
+</footer>
+</body>
+
+
+<script src="js/script.js"></script>
+
+</html>

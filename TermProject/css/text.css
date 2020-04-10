@@ -1,0 +1,146 @@
+
+
+body {
+    
+    margin:0 auto;
+    width: 1100px;
+}
+
+
+
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+
+
+#header {
+    
+    margin: auto;
+    max-width: 1100px;
+    position: absolute;              
+    top: 50%;                        
+    transform: translate(0, -50%)
+}
+
+
+
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+
+
+nav {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    margin: auto;
+    max-width: 1000px;
+   
+  }
+
+nav ul {
+    list-style-type: none;
+
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #000;
+    border-top: 1px dashed rgba(0,0,0,0.3);
+}
+
+nav button {
+    margin: .2rem 2%;   
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #555;
+    }
+
+nav ul.hide {display: none;}
+
+nav ul li a:hover {
+    background-color:#ff6600;
+    color: #FFF;
+}
+
+nav ul li.active a {
+    background-color: #555;
+    color: #FFF;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.center { 
+    
+    display: block;
+    width: 100% !important;
+    height: auto !important;
+    
+ 
+}
+
+.showMe
+    {
+        z-index: 1;
+     width: 50%;
+      height: auto;
+      margin: 0 auto !important;
+      position: absolute;
+      visibility: hidden;
+      opacity: .82;
+     
+      
+      overflow: hidden;
+      padding-left: 27%;
+      padding-top: 15%;
+      
+    }
+
+
+video {
+    margin: 0 auto;
+    width: 1100px;
+  }
+
+ 
+
+    
+/* Footer
+-----------------------------------------------------------------------------*/
+footer {
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin: 0 auto;
+    border: 1px solid #bbb;
+    color: white;
+    background-color: #2b4b84;
+    text-align: center;
+    font-size: 12px;
+    max-width: 1000px;
+    max-height: 125px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer span {
+  
+        padding: 1px;
+        color: #ffffff;
+        text-align: left;
+        font-family: 'Open Sans', Helvetica, sans-serif;
+        font-size: 12px;
+        margin-left: 20px;
+        text-align: center;
+    }
+
+footer a {
+    color: #fff;
+
+}

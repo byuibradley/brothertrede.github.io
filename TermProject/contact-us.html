@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Salmon River Adventures</title>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Noto+Serif|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="icon" type="image/ico" href="media/salmon-rivers-favicon.ico">
+</head>
+<div class="weather">
+    <h3>Current Weather in Riggins, ID</h3><br>
+    <h4>Currently: <span id="currently"></span><br>
+        Current Temp: <span id="temp"></span> °F</span><br>
+        Winds: <span id="wind"></span> mph</span><br>
+        </h4>
+</div>
+<body>
+
+
+
+
+    <header>
+        <nav id="page-nav">
+            <img src="media/salmon-river-logo.png" alt="logo" />
+            <label for="hamburger">&#9776;</label>
+            <input type="checkbox" id="hamburger" />
+            <ul>
+
+                <li><a href="index.html">Home</a></li>
+                <li><a href="adventures.html">Adventures</a></li>
+                <li><a href="guides.html">Tour Guides</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li class="active"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <table class="contactArea">
+            <tr>
+                <td>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2800.575256878504!2d-116.31769599999998!3d45.417904!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54a6c5695ed5fae5%3A0x837cd0558ffd520c!2s1000%20S%20Main%20St%2C%20Riggins%2C%20ID%2083549!5e0!3m2!1sen!2sus!4v1586468416500!5m2!1sen!2sus"
+                        width="900" height="650" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+                </td>
+                <td>
+                    <h1>Contact & Hours of Operation</h1>
+                    <h3>
+                        <p class="hours">
+                        Salmon River Rafting<br>
+                        1000 S Main Street<br>
+                        Riggins, ID 83549<br>
+                        (208) 555-1212<br><br>
+                        Tuesday - Sunday: 8am to Dusk<br>
+                        Mondays: Closed</h3></p>
+                    </h3>
+                </td>
+
+                <td>
+                    <table class="contactForm">
+                        <th colspan="2"><h2>Send us a Message:</h2><br></th>
+                        <form class="alignForm">
+                            
+                            <tr>
+                                <td class="leftForm">
+                                    <label for="fname">First Name</label>
+                                </td>
+                                <td class="rightForm">
+                                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="lname">Last Name</label>
+                                </td>
+                                <td class="rightForm">
+                                    <input type="text" id="lname" name="lastname" placeholder="Your last name.."></td>
+                            </tr>
+                            <tr>
+                                <td class="leftForm">
+                                    <label for="phonenumber">Phone&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                                </td>
+                                <td class="rightForm">
+                                    <input type="text" id="phonenumber" name="phonenumber"
+                                        placeholder="Your phone number">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="leftForm">
+                                    <label
+                                        for="email">Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                                </td>
+                                <td class="rightForm">
+                                    <input type="text" id="email" name="email" placeholder="Email Address">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="leftForm">
+                                    <label for="comments">Comments</label>
+                                </td>
+                                <td class="rightForm">
+                                    <textarea id="comments" name="comments" placeholder="Write something.."
+                                        class="commentBox"></textarea>
+                                </td>
+                            </tr>
+                            <tr><td></td>
+                                <td  class="submitSection">
+
+                                    <input type="submit" value="Submit">
+                                </td>
+                            </tr>
+                        </form>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+
+    </main>
+    <br>
+    <footer>
+        <hr>
+        <span class="footer-social" ><img src="media/twitter.png" alt="Twitter-Logo"><img src="media/youtube.png" alt="YouTube-Logo"><img
+                src="media/facebook.png" alt="Facebook-Logo"></span>
+        <p class="footer-right">
+            Salmon River Adventures &copy;2020</p>
+        </span>
+    </footer>
+</body>
+
+
+
+
+<script src="js/script.js"></script>
+
+</html>

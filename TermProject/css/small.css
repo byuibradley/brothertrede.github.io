@@ -1,0 +1,564 @@
+@media (max-width: 375px) {    
+    .absolute {
+        display: none !important;
+    }
+    }
+
+    .weather{
+      position:absolute;
+      top:3%;
+      right:10%;
+      z-index: 100;
+     }
+
+html, body {
+    height: 100%;
+}
+
+#footer hr {
+  width: 100%;
+
+}
+#header {
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+}
+
+footer {
+  width: 93%;
+  margin: 0 auto;
+}
+.footer-social {
+
+  display: inline-flex;
+  font-size: 2.7em;
+  align-items: center;
+
+}
+
+.footer-social-media {
+  width: 85px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.footer-right {
+  float: right;
+  text-align: right;
+  display: inline-flex;
+  font-size: 2.7em;
+  align-items: center;
+}
+#header image {
+    width: 350px;
+    height: auto;
+}
+
+#body {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.wrap {
+    height: auto;
+    margin: 0 auto -80px;
+    min-height: 100%;
+    padding: 0 0 80px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.showMe
+    {
+        z-index: 0;
+     width: 55%;
+      height: auto;
+      margin: 0 auto !important;
+      position: absolute;
+      visibility: hidden;
+      opacity: .82;
+     
+      
+      overflow: hidden;
+      padding-left: 25%;
+      padding-top: 17%;
+      
+    }
+
+    .containerAdventures {
+        
+        max-width: 90%;
+        width: auto;
+        padding-top: 20px;
+        
+    }
+
+video {
+    display: block;
+    margin: 0 auto;
+    width: 99%;
+
+  }
+
+  .container{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: 20px;
+}
+.box{
+    width: 100%;
+    height: 100%;            
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;  /* for demo purpose  */
+}
+.containerNickel{
+        width: 600px;
+        height: 600px;
+        position: relative;
+        margin: 20px;
+    }
+    .boxDime{
+    
+            z-index: 200;
+         width: 75%;
+          height: auto;
+          margin: 0 auto !important;
+          position: absolute;
+          visibility: hidden;
+          opacity: .82;
+         
+          
+          overflow: hidden;
+          padding-left: 25%;
+          padding-top: 17%;
+           }
+ 
+  .row {
+    display: flex;
+    height: 90%;
+    padding: 0 4px;
+   
+    overflow: hidden;
+  }
+  
+
+  .column {
+
+    flex:50%;
+    max-width: 50%;
+    padding: 0 4px;
+
+  }
+  
+  .column img {
+    margin-top: 4px;
+    width: 100%;
+    display: block;
+    
+  }
+
+  .calm{
+    height:99%;
+    padding-bottom: 4px;
+}
+
+.ocean{
+    height:49.35%;
+}
+
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 100%) {
+    .column {
+
+      flex: 40%;
+      max-width: 40%;
+    }
+  }
+  
+  
+  .foot {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 99%;
+    height: 104px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+  
+  }
+
+  .absolute {
+  
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: #fdd;
+    border-color: #900;
+    opacity: 0.7;
+    z-index: 100;
+    top: 5%;
+    left: 5%;
+    }
+
+ 
+
+/* ------------------------------ CSS for Adventure Page -------------------------- */
+
+  
+
+
+  .adventure2 { 
+      background-color: rgb(94, 70, 49);
+      font-size: 1.9em;
+      color: #fff;
+      max-width: 93%;
+      height: auto;
+      margin: 0 auto;
+  }
+  .adventure3 { 
+      background-color: rgb(58, 31, 7);
+      font-size: 1.9em;
+      color: #fff;
+      max-width: 93%;
+      height: auto;
+      margin: 0 auto;
+  }
+
+  .adventure2 h1, h2, h3, h4, h5 {
+    display: inline;
+    padding-right: 25px;
+  }
+
+  .adventure3 h1, h2, h3, h4, h5 {
+    display: inline;
+    padding-right: 25px;
+  }
+
+  .adventure4 h1, h2, h3, h4, h5 {
+    display: inline;
+    padding-right: 25px;
+  }
+
+
+  .adventure4 { 
+      background-color: rgb(12, 6, 1);
+      font-size: 1.9em;
+      color: #fff;
+      max-width: 93%;
+      height: auto;
+      margin: 0 auto;
+  }
+  
+.dock{
+  width: 93%;
+  margin: 0 auto;
+  padding-left: 3.4%;
+  padding-top: 2%;
+  padding-bottom: 1.7%;
+}
+
+.bookIt {
+  background-color: rgb(221, 224, 36);
+  border: none;
+  color: black;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+
+
+
+}
+
+
+
+
+
+/* ---------------------------------  Navigation --------------------------------------- */
+
+#page-nav {
+  width: 93%;
+  background: #fff;
+  box-shadow: 0 2px 15px gray;
+  margin: 0 auto;
+  padding-bottom: 20px;
+
+}
+
+
+#page-nav label, #hamburger {
+  display: none;
+  float: right;
+
+}
+
+
+#page-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; 
+}
+#page-nav ul li {
+  display: inline-block;
+  padding: 10px;
+  box-sizing: border-box;
+}
+#page-nav ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+
+#page-nav ul li.active a {
+  background-color: #555;
+  color: #FFF;
+}
+
+nav ul li a:hover {
+  background-color:#900;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px){
+
+  #page-nav label {
+    display: inline-block;
+    color: #000;
+    background: #a02620;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+  }
+
+
+  #page-nav ul li {
+    display: block;
+  }
+  #page-nav ul li {
+    border-top: 1px solid #333;
+  }
+
+
+  #page-nav ul {
+    display: none;
+  }
+  #page-nav input:checked ~ ul {
+    display: block;
+  }
+}
+
+#page-nav {
+  background: #fff;
+  position: sticky;
+  top: 0;
+}
+
+/* -------------------------------- Contact Page ----------------------------------- */
+
+.contactArea {
+  width: 90%;
+  height: auto;
+  margin:0 auto;
+  padding-top: 25px;
+}
+
+.google-maps {
+  position: relative;
+  padding-bottom: 50%; 
+  height: 0;
+  overflow: hidden;
+}
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 800px !important;
+  height: auto !important;
+}
+
+.contact {
+display: block;
+margin: 10px auto;
+border: 1px dashed black;
+background-color:#666666;
+color: ghostwhite;
+max-width: 1000px;
+overflow:hidden;
+text-align: left;
+}
+
+input[type=text], select {
+width: 90%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+resize: vertical;
+}
+
+label {
+padding: 12px 12px 12px 0;
+display: inline-block;
+}
+
+input[type=submit] {
+background-color: #4CAF50;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+float: right;
+}
+
+input[type=submit]:hover {
+background-color: #45a049;
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.alignForm {
+width: 100%;
+margin: auto;
+justify-content: center;
+}
+
+.hours {
+  float: left;
+  text-align: left;
+}
+
+/* ------------------------------ Guides Page ------------------------------ */
+.profiles {
+  display: grid;
+  grid-template-columns: repeat(auto, 300px);
+ 
+  justify-content: center;
+  background-color: #FFFFFF;
+  max-width: 93%;
+  grid-column-gap: 100px;
+  margin:0 auto;
+  height: auto;
+ 
+}
+
+@media screen and (min-width: 800px) {
+  .profiles {
+      grid-template-columns: repeat(4, 300px);
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1220px) {
+  .profiles {
+      grid-template-columns: repeat(2, 300px);
+  }
+}
+
+.profile img {
+  width: 300px;
+  height: 280px;
+  margin: 10px auto;
+  box-shadow: 0 0 5px #041f1a;
+}
+
+.guideMain {
+  margin:0 auto;
+  width: 90%;
+  padding-left: 10%;
+}
+
+/* ---------------------------------  Reservations Page CSS ---------------------------------- */
+.resTable {
+  width: 93%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.reservationLeft {
+  max-width: 40%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.reservationRight {
+  max-width: 60%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.reservationRight h1 {
+  justify-content: center;
+}
+
+.rescolumns {
+  float: left;
+  width: 32%;
+  padding: 8px;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
